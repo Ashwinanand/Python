@@ -1,0 +1,13 @@
+import math
+num1 = int (input("Enter a number: "))
+num2 = int (input("Enter a second number: "))
+print()
+print('The sum of ', num1, ' and ', num2, ' is ', num1+num2, '.', sep='')
+print()
+print('the exp of {} to {} is : {}'.format(num1, num2, num1**num2))
+print()
+print('Using floor function : ', math.floor(num1))
+print()
+print('Using fabs function', math.fabs(num1))
+print()
+print('Using abs function', abs(num1))
